@@ -22,6 +22,11 @@
     cursor: pointer;
 }
 
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+
 
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
@@ -95,4 +100,47 @@ nav ul a{
 .banner-image img{
     max-width: 584px;
     vertical-align: middle;
+}
+
+#about{
+    padding-top: 130px;
+}
+.about-container{
+    width: 1140px;
+    max-width: 67%;
+    padding: 131px 157px 131px 156px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+}
+
+.section-heading h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 18px;
+    font-weight: 400px;
+    color:#757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+    /* gap:50px ; */
+}
+.Info-card p{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 400px;
+    line-height: 30px;
+    
+}
+.Info-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
 }
