@@ -25,6 +25,7 @@
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -114,7 +115,7 @@ nav ul a{
     background-color: #FFF8F3;
 }
 
-.section-heading h3{
+.section-heading h2{
     font-size: 35px;
     font-weight: bold;
     color: #181818;
@@ -130,7 +131,7 @@ nav ul a{
 .about-info{
     display: flex;
     justify-content: space-around;
-    /* gap:50px ; */
+    
 }
 .Info-card p{
     font-size: 20px;
@@ -144,3 +145,45 @@ nav ul a{
     font-weight: bold;
     color: #474747;
 }
+
+#skills{
+    padding-top: 130px;
+}
+.skills-container{
+    width:1140px;
+    max-width: 67%;
+    margin: 0 auto ;
+
+}
+
+.skill-box{
+    display: flex;
+    gap: 24px;
+}
+.Skill-card{
+
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0px 6px 50px 0px #00000020;
+    /* border: 1px solid red; */
+}
+.Skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.Skill-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.Skill-card p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #757575;
+    line-height: 28px;
+    /* max-width: 201px; */
+ 
+}
+
+
